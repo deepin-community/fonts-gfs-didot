@@ -1,0 +1,22 @@
+Source: fonts-gfs-didot
+Section: fonts
+Priority: optional
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Uploaders: Nicolas Spalinger <nicolas.spalinger@sil.org>,
+           Faidon Liambotis <paravoid@debian.org>,
+           Hideki Yamane <henrich@debian.org>,
+Build-Depends: debhelper-compat (= 13),
+Standards-Version: 4.5.0
+Homepage: https://www.greekfontsociety.gr/
+Vcs-Git: https://salsa.debian.org/fonts-team/fonts-gfs-didot.git
+Vcs-Browser: https://salsa.debian.org/fonts-team/fonts-gfs-didot
+Rules-Requires-Root: no
+
+Package: fonts-gfs-didot
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: greek font family (Didot revival)
+ Didot's type was the base for a new font, GFS Didot (1994) which was designed
+ by Takis Katsoulidis, and digitised by George Matthiopoulos. The typeface is
+ accompanied by a matching latin alphabet based on Hermann Zapf's Palatino.
